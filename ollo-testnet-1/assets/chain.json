@@ -5,7 +5,7 @@
   "status": "live",
   "website": "https://ollostation.zone",
   "update_link": "https://raw.githubusercontent.com/OLLO-Station/ollo/maser/assets/chain.schema.json",
-  "chain_name": "ollo-station",
+  "chain_name": "OLLO",
   "pretty_name": "OLLO Station",
   "daemon_name": "ollod",
   "bech32_prefix": "ollo",
@@ -77,7 +77,8 @@
   "peers": {
     "seeds": [],
     "persistent_peers": [
-      "70ba32724461c7ed4ec8d6ddc8b5e0b1cfb9e237@18.144.61.148:26656",
+      "a99fc4e81770ca32d574cac2e8680dccc9b55f74@18.144.61.148:26656",
+      "70ba32724461c7ed4ec8d6ddc8b5e0b1cfb9e237@54.219.57.63:26656",
       "7864a2e4b42e5af76a83a8b644b9172fa1e40fa5@52.8.174.235:26656"
     ]
   },
@@ -90,7 +91,11 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://node.ollo.zone:443",
+        "address": "https://node.ollo.zone",
+        "provider": "OLLO Station"
+      },
+      {
+        "address": "https://rpc.ollo.zone",
         "provider": "OLLO Station"
       },
       {
@@ -104,7 +109,7 @@
     ],
     "rest": [
       {
-        "address": "https://lcd.ollo.zone:443",
+        "address": "https://lcd.ollo.zone",
         "provider": "OLLO Station"
       },
       {
