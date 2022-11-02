@@ -1,6 +1,6 @@
 {
   "$schema": "https://github.com/cosmos/chain-registry/blob/master/assetlist.schema.json",
-  "chain_name": "ollo-station",
+  "chain_name": "OLLO",
   "assets": [
     {
       "description": "Native Token of OLLO Station testnet",
